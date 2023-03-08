@@ -102,7 +102,7 @@ is juxtaposed to the text bounding rectangle::
     cursor = Rect(rect.topright, (3, rect.height))
 
 Inside the event loop we watch out for KEYDOWN events. If the key press is a 
-BACKSPACE and the lenght of the string is larger than 0, then we remove the last character,
+BACKSPACE and the length of the string is larger than 0, then we remove the last character,
 else we append the new character to the text variable::
 
     if event.type == KEYDOWN:
