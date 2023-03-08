@@ -196,7 +196,7 @@ scale argument::
         rect = img.get_rect()
         rect.center = center
 
-To finally draw the transformed image we first fille the whole screen background (GRAY), 
+To finally draw the transformed image we first fill the whole screen background (GRAY), 
 blit the transformed image, surround it with a red rectangle.
 
 In order to give visual feedback for the mouse action when transforming an image, we
